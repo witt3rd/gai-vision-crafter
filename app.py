@@ -77,7 +77,6 @@ def reset() -> None:
 st.set_page_config(
     page_title="VisionCrafter™",
     page_icon="🔦",
-    # layout="wide",
 )
 
 if get_config().OPENAI_API_KEY is None:
@@ -108,7 +107,6 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# st.divider()
 # st.write(
 #     "[![Star](https://img.shields.io/github/stars/witt3rd/gai-ai2ai.svg?logo=github&style=social)](https://gitHub.com/witt3rd/gai-ai2ai)"
 #     + "[![Follow](https://img.shields.io/twitter/follow/dt_public?style=social)](https://www.twitter.com/dt_public)"
