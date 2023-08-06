@@ -11,7 +11,7 @@ load_dotenv()
 def get_config():
     return Settings(
         OPENAI_API_KEY=os.getenv("OPENAI_API_KEY"),
-        SYSTEM_PROMPT_FILE=os.getenv("SYSTEM_PROMPT_FILE", "system_prompt.txt"),
+        PROMPTS_FILE=os.getenv("PROMPTS_FILE", "prompts.json"),
         JOBS_DIR=os.getenv("JOBS_DIR", "./jobs"),
     )
 
@@ -19,5 +19,5 @@ def get_config():
 @dataclass
 class Settings:
     OPENAI_API_KEY: str
-    SYSTEM_PROMPT_FILE: str
+    PROMPTS_FILE: str
     JOBS_DIR: str
