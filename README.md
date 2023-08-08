@@ -4,6 +4,8 @@ _Crafting Clarity, Directing Vision_
 
 <img src="static/hero.png" width="704" />
 
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
 ## Overview
 
 VisionCrafter is an advanced variant of AI systems, specialized in refining, enhancing, and channeling descriptive communication to assure precision, transparency, and impact. It is designed to accept an extensive variety of inputs ranging from project outlines, company profiles, movie synopses to product specifications. As soon as these inputs are fed into the system, VisionCrafter commences its operation in a two-fold process - Refinement and Direction.
@@ -45,3 +47,14 @@ Start the [streamlit](https://streamlit.io/) auto-reload server:
 ```bash
 streamlit run app.py
 ```
+
+## License
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
